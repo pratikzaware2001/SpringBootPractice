@@ -20,6 +20,6 @@ public class JournalController {
     @GetMapping("/get")
     public List<JournalEntry> getAllJournal()
     {
-        return journalService.getAll();
+        return journalService.getAll();;
     }
 }
